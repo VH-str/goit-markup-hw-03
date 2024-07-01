@@ -11,6 +11,12 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .border-header {
   background: #fff;
 }
@@ -123,7 +129,32 @@ a {
   background: #f4f4fd;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .main-form-text-hedertwo {
+  text-transform: capitalize;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -131,7 +162,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
 }
 
 .img-box {
