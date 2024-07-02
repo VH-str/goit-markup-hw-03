@@ -1,24 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
+  margin: 0;
 }
 
-ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
 }
+img {
+  display: block;
+}
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.border-header {
+.border-header .container {
+  border-bottom: 1px solid #e7e9fc;
   background: #fff;
+  height: 72px;
+  display: flex;
+}
+.logo-nav {
+  display: flex;
 }
 
 .text-logo {
@@ -29,6 +61,9 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-right: 76px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .span-logo {
@@ -41,6 +76,11 @@ a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  display: flex;
+  padding-right: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .text-nav-link {
@@ -62,6 +102,11 @@ a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  display: flex;
+  padding-right: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .address-text-link {
@@ -85,9 +130,16 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-left: 316px;
+  padding-right: 316px;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 
-.main-text-buttom {
+.btn-pz {
+}
+
+.main-text-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -96,10 +148,16 @@ a {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.main-text-buttom:hover,
-.main-text-buttom:focus {
+.main-text-button:hover,
+.main-text-button:focus {
   background-color: #404bbf;
 }
 
@@ -129,32 +187,7 @@ a {
   background: #f4f4fd;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .main-form-text-hedertwo {
-  text-transform: capitalize;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -162,6 +195,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .img-box {
