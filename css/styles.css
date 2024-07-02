@@ -51,7 +51,7 @@ img {
   align-items: center;
 }
 
-.text-logo {
+.logo-text {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -116,7 +116,14 @@ img {
   color: #404bbf;
 }
 
+.main-container {
+  display: block;
+  align-items: center;
+}
+
 .main-text {
+  display: block;
+  align-items: center;
   background: #2e2f42;
 }
 
@@ -128,13 +135,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-left: 316px;
-  padding-right: 316px;
   padding-top: 188px;
-  padding-bottom: 292px;
-}
-
-.btn-pz {
+  padding-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-text-button {
@@ -151,7 +155,7 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
   border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  margin: unset;
 }
 
 .main-text-button:hover,
