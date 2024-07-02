@@ -246,9 +246,20 @@ img {
 
 .img-box {
   background: #fff;
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.ofisnui-rab {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .img-box-h {
+  text-align: center;
+  margin-bottom: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -259,6 +270,7 @@ img {
 }
 
 .img-box-p {
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
