@@ -198,6 +198,10 @@ img {
   gap: 24px;
 }
 
+.main-listt-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .main-listt-hedthree {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
