@@ -316,12 +316,14 @@ img {
 }
 
 .ofisnui-rabu {
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none; 
-  margin-bottom: 8px;
+  
 }
 
 .imgg-box-h {
+  margin-bottom: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -341,9 +343,11 @@ img {
 
 .footer-body {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
+  max-width: 264px; 
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -353,5 +357,7 @@ img {
 }
 
 .span-logo-fut {
+   display: inline-block;
+   margin-bottom: 16px;
   color: #f4f4fd;
 }
