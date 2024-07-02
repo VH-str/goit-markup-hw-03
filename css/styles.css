@@ -244,10 +244,13 @@ img {
   margin-bottom: 72px;
 }
 
-.img-box {
-  background: #fff;
+.img {
   display: flex;
   gap: 24px;
+}
+
+.img-box {
+  background: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
