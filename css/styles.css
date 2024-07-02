@@ -289,7 +289,7 @@ img {
 }
 
 .main-portfolio-container {
-  kffkwkleewcwll
+  +++++++++
 }
 
 .portfolio-hedtwo {
@@ -346,6 +346,11 @@ img {
   padding: 100px 0;
 }
 
+.text-logo-fut {
+display: inline-block;
+   margin-bottom: 16px;
+}
+
 .footer-text {
   max-width: 264px; 
   font-family: "Roboto", sans-serif;
@@ -357,7 +362,5 @@ img {
 }
 
 .span-logo-fut {
-   display: inline-block;
-   margin-bottom: 16px;
   color: #f4f4fd;
 }
